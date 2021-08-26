@@ -1,0 +1,20 @@
+Histórico de commit
+git pull origin master --allow-unrelated-histories
+
+ADD arquivo local para remoto
+git add arquivo
+
+COMMIT arquivo local para remoto
+git commit -m "comentário"
+
+ENVIAR arquivo local para remoto
+git push origin master
+
+EXCLUIR arquivo local
+git rm index.php
+
+VERIFICAR o status do git local
+git status
+
+Atualizar o repositorio do remoto na máquina local
+git pull origin master 
