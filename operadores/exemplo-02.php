@@ -7,9 +7,9 @@ $valorTotal += 100;
 
 $valorTotal +=25;
 
-$valorTotal -=10;
+$valorTotal -=10; //desconto
 
-$valorTotal *= .9;
+$valorTotal *= .9; //desconto
 
 echo $valorTotal;
 

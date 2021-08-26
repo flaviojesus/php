@@ -16,7 +16,10 @@ echo "<br>";
 echo $a / $b;
 echo "<br>";
 
-echo $a % $b;
+echo $a % $b; //modulo
 echo "<br>";
+
+echo $a ** $b; //$a elevado ao quadrado
+
 
 ?>

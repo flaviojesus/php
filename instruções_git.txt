@@ -1,4 +1,4 @@
-Histórico de commit
+CONFLITO de Histórico de commit (remotoxlocal)
 git pull origin master --allow-unrelated-histories
 
 ADD arquivo local para remoto
