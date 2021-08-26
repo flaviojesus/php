@@ -1,0 +1,2 @@
+O PHP 7 possui um novo operador, que verifica em apenas uma linha se uma variável é menor, igual ou maior que outra. Como se chama esse operador?
+Spaceship
