@@ -1,5 +1,0 @@
-<?php
-
-    echo "Alô Mundo";
-
-?>
