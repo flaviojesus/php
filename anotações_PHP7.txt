@@ -1,2 +1,14 @@
+https://www.php.net/docs.php
+
 O PHP 7 possui um novo operador, que verifica em apenas uma linha se uma variável é menor, igual ou maior que outra. Como se chama esse operador?
 Spaceship
+
+var_dump
+
+STRINGS (FUNÇÕES)
+https://www.php.net/manual/pt_BR/ref.strings.php
+
+str_replace é usado para substituir uma coisa por outra coisa.
+strpos
+substr
+strlen
