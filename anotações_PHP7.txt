@@ -12,3 +12,19 @@ str_replace é usado para substituir uma coisa por outra coisa.
 strpos
 substr
 strlen
+
+INCLUDE E REQUIRE
+
+O Require obriga que o arquivo exista e que esteja funcionando corretamente, se não gera um erro fatal.
+
+require_once (verifica se o arquivo já foi incluído, se já existe não incluirá (exigirá) novamente).
+
+O Include tenta executar mesmo que o arquivo não exista ou tenha erro e tem mais recursos (diretório include_path).
+Permite o include dinâmico (acessar um domínio remoto).
+
+Include_once se o arquivo já tiver sido incluído, não fará novamente (não fará novamente). O arquivo será incluído somente uma vez.
+
+ESTRUTURAS CONDICIONAIS
+
+IF / ELSEIF / ELSE
+SWITCH/CASE
