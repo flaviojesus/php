@@ -28,3 +28,15 @@ ESTRUTURAS CONDICIONAIS
 
 IF / ELSEIF / ELSE
 SWITCH/CASE
+FOREACH (Funciona somente em arrays e objetos)
+WHILE (faça enquanto), muito utilizado para pegar dados no banco de dados
+DO WHILE (ENQUANTO/FAÇA -> executa pelo menos uma vez mesmo a condição mesmo sendo falsa)
+
+RAND (FUNÇÃO DO PHP PARA SORTEAR NUMEROS)
+
+ARRAYS
+print_r() // escreve na tela o array
+end //retorna o valor do último elemento do array
+array_push — Adiciona um ou mais elementos no final de um array
+json_encode - transforma um array em json
+json_decode - transforma o json em um array
