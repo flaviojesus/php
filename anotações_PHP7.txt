@@ -61,4 +61,8 @@ session_regenerate_id() - Atualiza o id da sessão atual co um novo id gerado
 session_save_path() - Obtém ou define o caminho para armazenamento da sessão atual
 session_status() - Retorna o status atual da sessão
 
-
+FUNÇÕES DEFINIDAS PELO usuário
+PARÂMETROS que não tem valor padrão sempre a esquerda
+ex: function ola($parametro1, $parametro2 = "Bom dia"){
+    return "Olá $texto! $periodo! <br>";
+}
