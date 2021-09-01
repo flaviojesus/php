@@ -1,3 +1,7 @@
+CÓDIGOS DO CURSO
+https://github.com/hcodebr/curso-completo-php-7
+
+
 https://www.php.net/docs.php
 
 O PHP 7 possui um novo operador, que verifica em apenas uma linha se uma variável é menor, igual ou maior que outra. Como se chama esse operador?
@@ -22,7 +26,7 @@ require_once (verifica se o arquivo já foi incluído, se já existe não inclui
 O Include tenta executar mesmo que o arquivo não exista ou tenha erro e tem mais recursos (diretório include_path).
 Permite o include dinâmico (acessar um domínio remoto).
 
-Include_once se o arquivo já tiver sido incluído, não fará novamente (não fará novamente). O arquivo será incluído somente uma vez.
+Include_once se o arquivo já tiver sido incluído, não fará novamente. O arquivo será incluído somente uma vez.
 
 ESTRUTURAS CONDICIONAIS
 
@@ -35,8 +39,26 @@ DO WHILE (ENQUANTO/FAÇA -> executa pelo menos uma vez mesmo a condição mesmo 
 RAND (FUNÇÃO DO PHP PARA SORTEAR NUMEROS)
 
 ARRAYS
-print_r() // escreve na tela o array
-end //retorna o valor do último elemento do array
+print_r() - Escreve na tela o array
+end - Retorna o valor do último elemento do array
 array_push — Adiciona um ou mais elementos no final de um array
-json_encode - transforma um array em json
-json_decode - transforma o json em um array
+json_encode - Transforma um array em json
+json_decode - Transforma o json em um array
+
+CONSTANTES E ARRAY CONSTANTES
+define - Define uma constante
+VARIÁVEIS PRÉ-DEFINIDAS DO PHP 
+https://www.php.net/manual/pt_BR/reserved.variables.php
+
+SESSÕES
+https://www.php.net/manual/pt_BR/book.session.php
+
+session_start() - Inicia a sessão (por padrão deve-se iniciar a sessão em cada arquivo)
+session_unset() - Limpa a variável de sessão
+session_destroy() - Limpa e remove o usuário
+session_id() - Obtém ou recupera o id de uma sessão
+session_regenerate_id() - Atualiza o id da sessão atual co um novo id gerado
+session_save_path() - Obtém ou define o caminho para armazenamento da sessão atual
+session_status() - Retorna o status atual da sessão
+
+
