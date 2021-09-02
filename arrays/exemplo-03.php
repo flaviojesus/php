@@ -24,7 +24,7 @@
     echo"<br>";
     echo"<br>";
 
-/* INSERE ITENS DENTRO DO ARRAY */
+/* OUTRA FORMA DE INSERIR ITENS DENTRO DO ARRAY */
 
     $cesta = array("laranja", "morango","goiaba");
     array_push ($cesta,"melancia","batata");
