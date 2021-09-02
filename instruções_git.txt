@@ -10,11 +10,17 @@ git commit -m "comentário"
 ENVIAR arquivo local para remoto
 git push origin master
 
-EXCLUIR arquivo local
-git rm index.php
-
 VERIFICAR o status do git local
 git status
 
 Atualizar o repositorio do remoto na máquina local
 git pull origin master 
+
+EXCLUIR arquivo local
+git rm index.php
+
+RESETAR/APAGAR O ÚLTIMO COMMIT
+git reset HEAD~1
+
+DESFAZER ALTERAÇÕES EM UM ARQUIVO
+git checkout -- arquivo.txt
