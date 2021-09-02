@@ -67,6 +67,7 @@ ex: function ola($parametro1, $parametro2 = "Bom dia"){
     return "Olá $texto! $periodo! <br>";
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 array_sum - Calcula a soma dos elementos de um array
 array bidimensional - array dentro de um array
@@ -77,5 +78,7 @@ FUNÇÕES ANÔNIMAS
 Função Anônima - não tem return
 callback - geralmente usada em processo lento, quando não sei sabe quando vai terminar
 
+=======
+>>>>>>> 15e8d9c3cad30e31a8580788ae1e8227431b1545
 =======
 >>>>>>> 15e8d9c3cad30e31a8580788ae1e8227431b1545
