@@ -19,6 +19,8 @@ git pull origin master
 EXCLUIR arquivo local
 git rm index.php
 
+
+https://brorlandi.github.io/git-desfazendo-commits
 RESETAR/APAGAR O ÚLTIMO COMMIT
 git reset HEAD~1
 
