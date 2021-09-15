@@ -1,11 +1,18 @@
-CONFLITO de Histórico de commit (remotoxlocal)
-git pull origin master --allow-unrelated-histories
 
+git add --all
+git commit -m 'mensagem'
+git pull origin master --allow-unrelated-histories
+git push -u origin master
+
+***************************************************************************
 ADD arquivo local para remoto
 git add arquivo
 
 COMMIT arquivo local para remoto
 git commit -m "comentário"
+
+Atualizar o repositorio do remoto na máquina local
+git pull origin master
 
 ENVIAR arquivo local para remoto
 git push origin master
@@ -13,12 +20,11 @@ git push origin master
 VERIFICAR o status do git local
 git status
 
-Atualizar o repositorio do remoto na máquina local
-git pull origin master 
-
 EXCLUIR arquivo local
 git rm index.php
 
+CONFLITO de Histórico de commit (remoto x local)
+git pull origin master --allow-unrelated-histories
 
 https://brorlandi.github.io/git-desfazendo-commits
 RESETAR/APAGAR O ÚLTIMO COMMIT
@@ -26,3 +32,5 @@ git reset HEAD~1
 
 DESFAZER ALTERAÇÕES EM UM ARQUIVO
 git checkout -- arquivo.txt
+
+

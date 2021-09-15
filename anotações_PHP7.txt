@@ -75,3 +75,26 @@ Função Recursiva - a própria função chama ela mesmo (tomar cuidado)
 FUNÇÕES ANÔNIMAS
 Função Anônima - não tem return
 callback - geralmente usada em processo lento, quando não sei sabe quando vai terminar
+
+DATAS
+https://www.php.net/manual/pt_BR/function.date.php
+
+Para o ano com 2 dígitos (y) e 4 dígitos (Y)
+echo ("d/m/Y H:i:s") -> Para os minutos é utilizado a letra (i), porque já foi utilizado a (m) para o mês.
+timestamp -> (pega os segundo desde 1970), passando o "timestamp" como parâmetro a hora ficará fixa (h:m:s), mas o timestamp continuará rodando.
+strtotime -> Converte uma string para o tipo timestamp
+setlocale -> Define informações locais
+    LC_ALL para tudo abaixo
+strftime —> Formata uma hora/data de acordo com as configurações locais
+ucwords -> Converte a primeira letra de cada palavra em maiúscula
+DateInterval("P15D") -> Representa um intervalo entre datas (ex:15 dias)
+DateTime() -> Representação de data e hora
+
+PROGRAMAÇÃO ORIENTADA A OBJETOS
+Classe -> ex: uma caixa e o que importa é o que está dentro dela
+OBJETO -> É uma variável que representa uma classe 
+INSTANCIA -> É quando um objeto representa uma classe
+*Classe sempre com a primeira letra maiúscula, se for mais de nome (1º maiúscula de cada nome)
+
+
+
